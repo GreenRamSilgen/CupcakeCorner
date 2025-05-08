@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7B4504712DCBF60E0075797C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4504702DCBF60E0075797C /* Order.swift */; };
+		7BFD62512DCD128B00CE0C04 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD62502DCD128B00CE0C04 /* AddressView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7B0E75C22DCA5C0500A99E7C /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4504702DCBF60E0075797C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7BFD62502DCD128B00CE0C04 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		7B0E75B92DCA5C0500A99E7C = {
 			isa = PBXGroup;
 			children = (
+				7BFD62502DCD128B00CE0C04 /* AddressView.swift */,
+				7B4504702DCBF60E0075797C /* Order.swift */,
 				7B0E75C42DCA5C0500A99E7C /* CupcakeCorner */,
 				7B0E75C32DCA5C0500A99E7C /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4504712DCBF60E0075797C /* Order.swift in Sources */,
+				7BFD62512DCD128B00CE0C04 /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
